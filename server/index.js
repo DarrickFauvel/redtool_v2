@@ -4,7 +4,7 @@ const port = 5000
 
 const { produce } = require("./data.js")
 
-app.get("/", (req, res) => {
+app.get("/api/produce", (req, res) => {
   res.json(produce)
 })
 
