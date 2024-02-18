@@ -1,5 +1,5 @@
-import { useStore } from '@nanostores/react'
-import { produceData } from '../stores/produceStore'
+import { useStore } from "@nanostores/react"
+import { produceData } from "../stores/produceStore"
 
 const getProduceData = () => {
   const $produceData = useStore(produceData)
