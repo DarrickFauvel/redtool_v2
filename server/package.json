@@ -1,0 +1,19 @@
+{
+  "name": "redtool",
+  "version": "1.0.0",
+  "description": "API server that provides data for redTool client app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Darrick Develops",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

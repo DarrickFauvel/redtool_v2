@@ -1,0 +1,13 @@
+.main {
+  background-color: white;
+}
+
+.main-container {
+  padding-inline: 0.5em;
+  padding-top: calc((32 / 16) * 1em);
+  padding-bottom: calc((50 / 16) * 1em);
+
+  @media (min-width: 640px) {
+    height: 100vh;
+  }
+}
